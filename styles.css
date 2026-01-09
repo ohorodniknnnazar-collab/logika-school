@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+      background-image: linear-gradient(to right,blue, rgb(141, 178, 77), purple);
+}
+header {
+    background-color: blueviolet;
+    color: yellow;
+    height:160px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 18px;
+  }
+
+.navs {
+  max-width: 100px;
+  background-color: yellow;
+  color:rgb(103, 17, 103);
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 18px;
+  font-weight: bold;
+  min-width: 80px;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+* {
+  text-align:center;
+}
+.introduction, .exercises {
+  max-width: 400px;
+  border: 2px solid black;
+  border-radius: 18px;
+  padding: 20px;
+  margin: 20px;
+  background-color: blue;
+  align-items: center;
+}
+.lessons {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 18px;
+  padding: 20px;
+  max-width:400px;
+  margin: 20px;
+  background-color: rgb(221, 232, 67);
+}
